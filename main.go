@@ -28,6 +28,8 @@ func headers(w http.ResponseWriter, req *http.Request) {
 
 func main() {
 
+  fmt.Println("Michael, I am your father")
+
     http.HandleFunc("/hello", hello)
     http.HandleFunc("/headers", headers)
 
