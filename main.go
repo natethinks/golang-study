@@ -4,10 +4,7 @@ import (
     "fmt"
     "net/http"
 )
-
-// comments in go are just two slashes
-
-// so this is a really simple web server. Everything you visit on the web is just a server you're making a rqeuest to and that server sends back a response. This server only has 2 options for what it will do, and they're accessed by the two http.HandleFunc() functions near the bottom.
+//letsgo
 
 func hello(w http.ResponseWriter, req *http.Request) {
 
